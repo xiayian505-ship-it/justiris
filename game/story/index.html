@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#181618">
+  <meta name="description" content="Justiris｜執法之眼，劇情目錄與探索解謎關卡入口。">
+  <title>劇情播放器｜Justiris 執法之眼</title>
+
+  <link rel="stylesheet" href="../../index_style.css">
+  <link rel="stylesheet" href="./story.css">
+  <link rel="stylesheet" href="./story_style.css">
+
+  <script src="./story.js" defer></script>
+  <script src="./story_style.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../../index.html">◈ JUSTIRIS</a>
+    <nav aria-label="頁面導覽">
+      <a href="../index.html">← 六集目錄</a>
+    </nav>
+  </header>
+
+  <main class="story-main">
+    <div class="section-head">
+      <p class="eyebrow">JUSTIRIS · STORY ARCHIVE</p>
+      <h1>劇情卷宗</h1>
+      <p class="story-subtitle">集 → 回 → 節</p>
+    </div>
+
+    <nav id="story-breadcrumbs" class="story-breadcrumbs" aria-label="劇情導航"></nav>
+
+    <section id="catalog-screen" class="story-screen" aria-label="章回與小節目錄">
+      <div class="story-heading">
+        <p id="episode-label" class="story-kicker"></p>
+        <h2 id="chapter-title"></h2>
+        <p id="chapter-note" class="story-note"></p>
+      </div>
+      <div id="section-list" class="story-sections"></div>
+    </section>
+
+    <section id="reader-screen" class="story-screen" hidden aria-label="劇情播放器">
+      <div class="reader-header">
+        <button id="return-sections" class="quiet-button" type="button">← 返回節目錄</button>
+        <span id="reader-heading" class="reader-heading"></span>
+      </div>
+      <div class="reader-progress" aria-hidden="true"><span id="reader-progress-fill"></span></div>
+      <div class="scene-board" aria-label="劇情場景">
+        <div class="scene-seal" aria-hidden="true">
+          <svg viewBox="0 0 140 90" fill="none">
+            <circle cx="70" cy="45" r="38" stroke="currentColor" stroke-width="1" opacity=".6"/>
+            <path d="M22 45 Q70 4 118 45 Q70 86 22 45 Z" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="70" cy="45" r="11" stroke="currentColor" stroke-width="1"/>
+            <path d="M70 20V70" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <p class="scene-kicker">JUSTIRIS · 執法之眼</p>
+        <h3 id="scene-heading">劇情紀錄</h3>
+      </div>
+      <article id="dialogue-panel" class="dialogue-panel" aria-label="劇情事件">
+        <p id="speaker-name" class="speaker-name"></p>
+        <p id="story-text" class="story-text"></p>
+        <div id="story-choices" class="story-choices"></div>
+        <div class="reader-actions">
+          <span id="reading-position"></span>
+          <button id="advance-button" class="primary-button" type="button">繼續 →</button>
+        </div>
+      </article>
+      <p id="reader-error" class="reader-error" role="alert" hidden></p>
+    </section>
+
+    <section id="status-screen" class="story-screen story-status" hidden aria-live="polite">
+      <span class="status-symbol" aria-hidden="true">◇</span>
+      <h2 id="status-title">正在載入卷宗</h2>
+      <p id="status-description"></p>
+      <div class="status-actions">
+        <button id="status-return" class="quiet-button" type="button">返回節目錄</button>
+        <button id="status-next" class="primary-button" type="button" hidden>下一節 →</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>JUSTIRIS ✦ 執法之眼</span>
+    <a href="../index.html">六集遊戲目錄</a>
+  </footer>
+</body>
+</html>

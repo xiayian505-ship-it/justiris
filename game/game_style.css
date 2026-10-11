@@ -123,3 +123,38 @@
     padding-top: 115px;
   }
 }
+
+/* 新增：回數目錄可進入十節清單。不改動原本的酒紅燙金美術。 */
+.chapter-details {
+  min-width: 0;
+  flex: 1;
+}
+
+.chapter-subnote {
+  display: block;
+  margin-top: 5px;
+}
+
+.chapter-card button {
+  flex: none;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid #a98b5f;
+  background: #71263c;
+  color: #f3d5ae;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.chapter-card button:hover,
+.chapter-card button:focus-visible {
+  background: #893a50;
+  outline-color: #e1c99b;
+}
+
+@media (max-width: 600px) {
+  .chapter-card button {
+    width: 100%;
+  }
+}

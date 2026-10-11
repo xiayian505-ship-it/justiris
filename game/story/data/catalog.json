@@ -1,0 +1,1635 @@
+{
+  "schemaVersion": 1,
+  "episodes": [
+    {
+      "id": "episode_01",
+      "title": "人格篡位",
+      "classic": "狸貓換太子",
+      "revealed": true,
+      "chapters": [
+        {
+          "id": "chapter_01",
+          "title": "第一回 墨水滲出藏狡詐，包家後人偏姓宋",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_01/chapter_01/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_01/chapter_01/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_01/chapter_01/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_01/chapter_01/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_01/chapter_01/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_01/chapter_01/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_01/chapter_01/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_01/chapter_01/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_01/chapter_01/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_01/chapter_01/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_02",
+          "title": "第二回 漫天塵土埋舊債，皇孫含笑踏門來",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_01/chapter_02/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_01/chapter_02/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_01/chapter_02/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_01/chapter_02/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_01/chapter_02/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_01/chapter_02/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_01/chapter_02/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_01/chapter_02/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_01/chapter_02/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_01/chapter_02/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_03",
+          "title": "第三回 筆跡難辯分雙影，空房虛驚判是非",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_01/chapter_03/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_01/chapter_03/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_01/chapter_03/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_01/chapter_03/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_01/chapter_03/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_01/chapter_03/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_01/chapter_03/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_01/chapter_03/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_01/chapter_03/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_01/chapter_03/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_04",
+          "title": "第四回 腐水沉冤欲昭雪，濁味隨風現端倪",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_01/chapter_04/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_01/chapter_04/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_01/chapter_04/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_01/chapter_04/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_01/chapter_04/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_01/chapter_04/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_01/chapter_04/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_01/chapter_04/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_01/chapter_04/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_01/chapter_04/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_05",
+          "title": "第五回 孤魂井底鳴遺恨，暗璽借刀理門庭",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_01/chapter_05/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_01/chapter_05/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_01/chapter_05/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_01/chapter_05/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_01/chapter_05/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_01/chapter_05/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_01/chapter_05/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_01/chapter_05/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_01/chapter_05/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_01/chapter_05/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_06",
+          "title": "第六回 枯骨空蟬餘舊夢，人格篡位替餘生",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_01/chapter_06/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_01/chapter_06/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_01/chapter_06/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_01/chapter_06/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_01/chapter_06/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_01/chapter_06/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_01/chapter_06/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_01/chapter_06/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_01/chapter_06/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_01/chapter_06/section_10.json",
+              "enabled": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "episode_02",
+      "title": "雙聲",
+      "classic": "烏盆記",
+      "revealed": true,
+      "chapters": [
+        {
+          "id": "chapter_01",
+          "title": "第一回 和弦散音：追思會上的第二個魂魄",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_02/chapter_01/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_02/chapter_01/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_02/chapter_01/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_02/chapter_01/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_02/chapter_01/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_02/chapter_01/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_02/chapter_01/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_02/chapter_01/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_02/chapter_01/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_02/chapter_01/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_02",
+          "title": "第二回 我執入弄：藏在暗處的琴師",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_02/chapter_02/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_02/chapter_02/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_02/chapter_02/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_02/chapter_02/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_02/chapter_02/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_02/chapter_02/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_02/chapter_02/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_02/chapter_02/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_02/chapter_02/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_02/chapter_02/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_03",
+          "title": "第三回 一室繁弦：意外，並不意外",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_02/chapter_03/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_02/chapter_03/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_02/chapter_03/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_02/chapter_03/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_02/chapter_03/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_02/chapter_03/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_02/chapter_03/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_02/chapter_03/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_02/chapter_03/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_02/chapter_03/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_04",
+          "title": "第四回 起手合鳴：玉已碎，弦如何不斷",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_02/chapter_04/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_02/chapter_04/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_02/chapter_04/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_02/chapter_04/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_02/chapter_04/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_02/chapter_04/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_02/chapter_04/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_02/chapter_04/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_02/chapter_04/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_02/chapter_04/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_05",
+          "title": "第五回 去路急奏：既然生而為雙，死亦同命",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_02/chapter_05/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_02/chapter_05/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_02/chapter_05/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_02/chapter_05/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_02/chapter_05/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_02/chapter_05/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_02/chapter_05/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_02/chapter_05/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_02/chapter_05/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_02/chapter_05/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_06",
+          "title": "第六回 死寂寂滅：雙聲",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_02/chapter_06/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_02/chapter_06/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_02/chapter_06/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_02/chapter_06/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_02/chapter_06/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_02/chapter_06/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_02/chapter_06/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_02/chapter_06/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_02/chapter_06/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_02/chapter_06/section_10.json",
+              "enabled": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "episode_03",
+      "title": "過期票",
+      "classic": "鍘美案",
+      "revealed": true,
+      "chapters": [
+        {
+          "id": "chapter_01",
+          "title": "第一回　鍘",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_03/chapter_01/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_03/chapter_01/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_03/chapter_01/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_03/chapter_01/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_03/chapter_01/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_03/chapter_01/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_03/chapter_01/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_03/chapter_01/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_03/chapter_01/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_03/chapter_01/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_02",
+          "title": "第二回　最初",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_03/chapter_02/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_03/chapter_02/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_03/chapter_02/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_03/chapter_02/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_03/chapter_02/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_03/chapter_02/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_03/chapter_02/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_03/chapter_02/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_03/chapter_02/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_03/chapter_02/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_03",
+          "title": "第三回　情或債",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_03/chapter_03/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_03/chapter_03/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_03/chapter_03/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_03/chapter_03/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_03/chapter_03/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_03/chapter_03/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_03/chapter_03/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_03/chapter_03/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_03/chapter_03/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_03/chapter_03/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_04",
+          "title": "第四回　深淵",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_03/chapter_04/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_03/chapter_04/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_03/chapter_04/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_03/chapter_04/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_03/chapter_04/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_03/chapter_04/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_03/chapter_04/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_03/chapter_04/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_03/chapter_04/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_03/chapter_04/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_05",
+          "title": "第五回　藏",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_03/chapter_05/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_03/chapter_05/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_03/chapter_05/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_03/chapter_05/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_03/chapter_05/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_03/chapter_05/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_03/chapter_05/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_03/chapter_05/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_03/chapter_05/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_03/chapter_05/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_06",
+          "title": "第六回　銜尾相隨",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_03/chapter_06/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_03/chapter_06/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_03/chapter_06/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_03/chapter_06/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_03/chapter_06/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_03/chapter_06/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_03/chapter_06/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_03/chapter_06/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_03/chapter_06/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_03/chapter_06/section_10.json",
+              "enabled": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "episode_04",
+      "title": "置幻重生點",
+      "classic": "陳州放糧",
+      "revealed": true,
+      "chapters": [
+        {
+          "id": "chapter_01",
+          "title": "第一回：黑夜對枯燈",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_04/chapter_01/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_04/chapter_01/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_04/chapter_01/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_04/chapter_01/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_04/chapter_01/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_04/chapter_01/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_04/chapter_01/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_04/chapter_01/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_04/chapter_01/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_04/chapter_01/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_02",
+          "title": "第二回：假藥養官糧",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_04/chapter_02/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_04/chapter_02/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_04/chapter_02/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_04/chapter_02/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_04/chapter_02/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_04/chapter_02/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_04/chapter_02/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_04/chapter_02/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_04/chapter_02/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_04/chapter_02/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_03",
+          "title": "第三回：毒害積沉冤",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_04/chapter_03/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_04/chapter_03/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_04/chapter_03/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_04/chapter_03/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_04/chapter_03/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_04/chapter_03/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_04/chapter_03/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_04/chapter_03/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_04/chapter_03/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_04/chapter_03/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_04",
+          "title": "第四回：冤沉積害毒",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_04/chapter_04/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_04/chapter_04/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_04/chapter_04/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_04/chapter_04/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_04/chapter_04/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_04/chapter_04/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_04/chapter_04/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_04/chapter_04/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_04/chapter_04/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_04/chapter_04/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_05",
+          "title": "第五回：糧官養藥假",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_04/chapter_05/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_04/chapter_05/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_04/chapter_05/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_04/chapter_05/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_04/chapter_05/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_04/chapter_05/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_04/chapter_05/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_04/chapter_05/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_04/chapter_05/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_04/chapter_05/section_10.json",
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "id": "chapter_06",
+          "title": "第六回：燈枯對夜黑",
+          "sections": [
+            {
+              "id": "section_01",
+              "title": "第一節",
+              "file": "episode_04/chapter_06/section_01.json",
+              "enabled": false
+            },
+            {
+              "id": "section_02",
+              "title": "第二節",
+              "file": "episode_04/chapter_06/section_02.json",
+              "enabled": false
+            },
+            {
+              "id": "section_03",
+              "title": "第三節",
+              "file": "episode_04/chapter_06/section_03.json",
+              "enabled": false
+            },
+            {
+              "id": "section_04",
+              "title": "第四節",
+              "file": "episode_04/chapter_06/section_04.json",
+              "enabled": false
+            },
+            {
+              "id": "section_05",
+              "title": "第五節",
+              "file": "episode_04/chapter_06/section_05.json",
+              "enabled": false
+            },
+            {
+              "id": "section_06",
+              "title": "第六節",
+              "file": "episode_04/chapter_06/section_06.json",
+              "enabled": false
+            },
+            {
+              "id": "section_07",
+              "title": "第七節",
+              "file": "episode_04/chapter_06/section_07.json",
+              "enabled": false
+            },
+            {
+              "id": "section_08",
+              "title": "第八節",
+              "file": "episode_04/chapter_06/section_08.json",
+              "enabled": false
+            },
+            {
+              "id": "section_09",
+              "title": "第九節",
+              "file": "episode_04/chapter_06/section_09.json",
+              "enabled": false
+            },
+            {
+              "id": "section_10",
+              "title": "第十節",
+              "file": "episode_04/chapter_06/section_10.json",
+              "enabled": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "episode_05",
+      "title": "？？",
+      "classic": "",
+      "revealed": false,
+      "chapters": []
+    },
+    {
+      "id": "episode_06",
+      "title": "？？",
+      "classic": "",
+      "revealed": false,
+      "chapters": []
+    }
+  ]
+}

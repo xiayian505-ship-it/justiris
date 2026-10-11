@@ -1,108 +1,110 @@
-/*
- * 遊戲目錄 UI
- * 目前只有「集 → 回」可瀏覽，不虛構尚未定案的節與關卡。
+/**
+ * Justiris 遊戲目錄 UI：集 → 回 → 節的前兩層。
+ * 章回文字由 game.js 載入的 catalog.json 提供。
+ * 每個「回」通往獨立的 story/ 目錄與播放器頁。
  */
 (() => {
+  'use strict';
+
   const catalog = document.getElementById('catalog');
   const breadcrumbs = document.getElementById('breadcrumbs');
+  const notice = document.getElementById('game-notice');
+  let episodes = [];
   let selectedEpisode = -1;
 
-  function createButton(label, onClick) {
-    const button = document.createElement('button');
-    button.textContent = label;
-    button.addEventListener('click', onClick);
-    return button;
+  function button(label, onClick) {
+    const element = document.createElement('button');
+    element.type = 'button';
+    element.textContent = label;
+    element.addEventListener('click', onClick);
+    return element;
+  }
+
+  function label(tag, className, text) {
+    const element = document.createElement(tag);
+    if (className) element.className = className;
+    element.textContent = text;
+    return element;
+  }
+
+  function showEpisodes() {
+    selectedEpisode = -1;
+    render();
+  }
+
+  function openChapter(episode, chapter) {
+    const url = new URL('./story/index.html', window.location.href);
+    url.searchParams.set('episode', episode.id);
+    url.searchParams.set('chapter', chapter.id);
+    window.location.assign(url.href);
   }
 
   function render() {
     catalog.replaceChildren();
     breadcrumbs.replaceChildren();
-
-    breadcrumbs.append(createButton('六集選擇', () => {
-      selectedEpisode = -1;
-      render();
-    }));
+    breadcrumbs.append(button('六集選擇', showEpisodes));
 
     if (selectedEpisode < 0) {
-      const list = document.createElement('div');
-      list.className = 'catalog-grid';
+      const grid = label('div', 'catalog-grid', '');
 
-      GAME_CATALOG.forEach((item, index) => {
-        const card = document.createElement('article');
-        card.className = 'catalog-card';
+      episodes.forEach((episode, index) => {
+        const card = label('article', 'catalog-card', '');
+        card.append(
+          label('span', 'catalog-no', String(index + 1).padStart(2, '0')),
+          label('small', '', episode.classic || '尚未公開'),
+          label('h2', '', episode.title),
+          label('p', '', episode.revealed
+            ? '可查看正式回目與十節預留位置 · 尚無已開放關卡'
+            : '尚未公開')
+        );
 
-        const number = document.createElement('span');
-        number.className = 'catalog-no';
-        number.textContent = String(index + 1).padStart(2, '0');
-        card.append(number);
-
-        const classic = document.createElement('small');
-        classic.textContent = item.classic || '尚未公開';
-        card.append(classic);
-
-        const title = document.createElement('h2');
-        title.textContent = item.title;
-        card.append(title);
-
-        const status = document.createElement('p');
-        status.textContent = index < 4
-          ? '章回目錄可閱覽 · 遊戲製作中'
-          : '尚未公開';
-        card.append(status);
-
-        if (index < 4) {
-          card.append(createButton('查看章回 →', () => {
+        if (episode.revealed) {
+          card.append(button('查看章回 →', () => {
             selectedEpisode = index;
             render();
           }));
         }
-
-        list.append(card);
+        grid.append(card);
       });
 
-      catalog.append(list);
+      catalog.append(grid);
       return;
     }
 
-    const data = GAME_CATALOG[selectedEpisode];
-    const heading = document.createElement('div');
-    heading.className = 'catalog-heading';
-
-    const caption = document.createElement('p');
-    caption.textContent = `EPISODE ${String(selectedEpisode + 1).padStart(2, '0')} · ${data.classic}`;
-
-    const title = document.createElement('h2');
-    title.textContent = data.title;
-    heading.append(caption, title);
+    const episode = episodes[selectedEpisode];
+    const heading = label('div', 'catalog-heading', '');
+    heading.append(
+      label('p', '', `EPISODE ${String(selectedEpisode + 1).padStart(2, '0')} · ${episode.classic}`),
+      label('h2', '', episode.title)
+    );
+    breadcrumbs.append(label('span', '', ' / ' + episode.title));
     catalog.append(heading);
 
-    breadcrumbs.append(document.createTextNode(' / ' + data.title));
-
-    const list = document.createElement('div');
-    list.className = 'chapter-list';
-
-    data.chapters.forEach((chapter) => {
-      const row = document.createElement('article');
-      row.className = 'chapter-card';
-
-      const name = document.createElement('h3');
-      name.textContent = chapter;
-
-      const note = document.createElement('span');
-      note.textContent = '節數與關卡待製作';
-
-      row.append(name, note);
+    const list = label('div', 'chapter-list', '');
+    episode.chapters.forEach(chapter => {
+      const row = label('article', 'chapter-card', '');
+      const details = label('div', 'chapter-details', '');
+      details.append(
+        label('h3', '', chapter.title),
+        label('span', 'chapter-subnote', `預留 ${chapter.sections.length} 節 · 劇情待填入`)
+      );
+      row.append(details, button('查看十節 →', () => openChapter(episode, chapter)));
       list.append(row);
     });
-
     catalog.append(list);
+  }
 
-    if (!data.chapters.length) {
-      const message = document.createElement('p');
-      message.textContent = '章回資料尚未提供。';
-      catalog.append(message);
+  async function init() {
+    notice.textContent = '正在讀取六集章回目錄…';
+    try {
+      episodes = await window.JustirisCatalog.load();
+      notice.textContent = '章回與節數資料已建立；尚未填入的劇情不可播放。';
+      render();
+    } catch (error) {
+      console.error('Justiris 目錄載入失敗', error);
+      notice.textContent = `目錄載入失敗：${error.message}。請由 GitHub Pages 或 HTTP 伺服器開啟網站。`;
     }
   }
 
-  render();
+  init();
 })();

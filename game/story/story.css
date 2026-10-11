@@ -1,0 +1,49 @@
+/** Justiris Story 功能基本樣式：畫面狀態與互動控件，不設定整體美術。 */
+.story-screen[hidden],
+#status-next[hidden],
+#reader-error[hidden],
+#advance-button[hidden] {
+  display: none;
+}
+
+.story-sections {
+  display: grid;
+  gap: 12px;
+}
+
+.section-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-width: 0;
+}
+
+.section-row button {
+  flex: none;
+}
+
+.reader-actions,
+.reader-header,
+.status-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.story-choices {
+  display: grid;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .section-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .section-row button {
+    width: 100%;
+  }
+}
