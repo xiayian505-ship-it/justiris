@@ -1,0 +1,39 @@
+/* 功能本體：收合狀態、閱讀文案 */
+.episode-list {
+  display: grid;
+  gap: 12px;
+}
+.episode-card {
+  min-width: 0;
+}
+.episode-card h3 {
+  margin: 0;
+}
+.episode-trigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+}
+.episode-locked {
+  display: flex;
+  align-items: center;
+}
+.episode-copy[hidden] {
+  display: none;
+}
+.episode-copy p {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.episode-trigger:focus-visible {
+  outline: 2px solid #f0d3a1;
+  outline-offset: 4px;
+}
+.episode-trigger {
+  font: inherit;
+}
+.sealed .episode-locked {
+  cursor: default;
+}

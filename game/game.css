@@ -1,0 +1,26 @@
+/* 章回選擇功能相關結構 */
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 20px;
+}
+.chapter-list {
+  display: grid;
+  gap: 13px;
+}
+.catalog-card,.chapter-card {
+  min-width: 0;
+}
+.breadcrumbs button,.catalog-card button {
+  cursor: pointer;
+}
+@media (max-width:850px) {
+  .catalog-grid {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+}
+@media (max-width:550px) {
+  .catalog-grid {
+    grid-template-columns: 1fr;
+  }
+}
